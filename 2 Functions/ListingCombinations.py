@@ -24,3 +24,22 @@ for s in suits:
     for r in ranks:
         deck.append(s + r)
 print(deck)
+
+print("The roll of a die yields 1 to 6 eyes. With two rolls, we should see 36 "+
+      "combinations")
+
+eyes = ['1', '2', '3', '4', '5', '6']
+
+rolls = []
+
+count = 0   # number of sums of eyes which equal 7
+
+for i in eyes:
+    for j in eyes:
+        rolls.append(i + j)
+        if (int(i) + int(j) == 7):
+            count += 1
+
+print(rolls)
+
+print("Number of sums of seven is", count)
