@@ -14,13 +14,13 @@ print("============================")
 
 def findY(y, t):
     if t in range(len(y)):
-        print("Linear interpolation not required\n")
+        print("Linear interpolation not required")
         return y[t]
     else:
         print("Linear interpolation proceeding...")
         low = int(t)
         high = low + 1
-        yMid = ((y[high] - y[low])/(high - low))*(t - low) + y[low]
+        yMid = (y[high] - y[low])*(t - low) + y[low]
         return yMid
 
 def enterPairs(N):
@@ -51,7 +51,9 @@ def maxTime():
 y = [4.4, 2.0, 11.0, 21.5, 7.5]
 ind = np.linspace(0, len(y)-1, len(y))
 
-print(findY(y, 2.1))
+print(findY(y, 2.1), "\n")
+
+print(findY(y, 4), "\n")
 
 plt.plot(ind, y)
 plt.xlabel('time t')

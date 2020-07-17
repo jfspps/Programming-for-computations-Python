@@ -33,6 +33,7 @@ for i in range(len(y)):
 filename='temp_out.dat'
 outfile = open(filename, 'w')
 outfile.write('# x and y coordinates\n')
+
 #zip is a function which processes two lists at the same time
 for xi, yi in zip(x, y):
     outfile.write('%10.5f %10.5f\n' % (xi, yi))
