@@ -9,6 +9,6 @@ Unless stated at the top a script, assume that Python 2 is the language level. F
 + Chapter 2: Basic Constructions
   - [For loops](2%20Functions/forLoops.ipynb)
   - [Finding crossing points](2%20Functions/FindingCrossingPoints.ipynb)
-  - [Listing combinations](2%20Functions/ListingCombinatios.ipynb)
+  - [Listing combinations](2%20Functions/ListingCombinations.ipynb)
   - [Linear interpolation](2%20Functions/LinearInterpolation.ipynb)
 + Chapter 3: Computing Integrals
