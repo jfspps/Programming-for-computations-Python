@@ -7,8 +7,9 @@ Unless stated at the top a script, assume that Python 2 is the language level. F
 
 + Chapter 1: The First Few Steps
 + Chapter 2: Basic Constructions
-  - [For loops](2%20Functions/forLoops.ipynb)
-  - [Finding crossing points](2%20Functions/FindingCrossingPoints.ipynb)
-  - [Listing combinations](2%20Functions/ListingCombinations.ipynb)
-  - [Linear interpolation](2%20Functions/LinearInterpolation.ipynb)
+  - [For loops](/2_Functions/forLoops.ipynb)
+  - [Finding crossing points](/2_Functions/FindingCrossingPoints.ipynb)
+  - [Listing combinations](/2_Functions/ListingCombinations.ipynb)
+  - [Linear interpolation](/2_Functions/LinearInterpolation.ipynb)
+  - [Fitting a linear function to data](/2_Functions/ListingCombinations.ipynb)
 + Chapter 3: Computing Integrals
