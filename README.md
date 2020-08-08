@@ -11,5 +11,5 @@ Unless stated at the top a script, assume that Python 2 is the language level. F
   - [Finding crossing points](/2_Functions/FindingCrossingPoints.ipynb)
   - [Listing combinations](/2_Functions/ListingCombinations.ipynb)
   - [Linear interpolation](/2_Functions/LinearInterpolation.ipynb)
-  - [Fitting a linear function to data](/2_Functions/ListingCombinations.ipynb)
+  - [Fitting a linear function to data](2_Functions/FittingStraightLinesToData.ipynb)
 + Chapter 3: Computing Integrals
